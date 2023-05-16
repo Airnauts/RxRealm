@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.summary = "An Rx wrapper of Realm's notifications and write bindings"
   s.homepage = "https://github.com/RxSwiftCommunity/RxRealm"
   s.authors = { "RxSwift Community" => "community@rxswift.org" }
-  s.source = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => "v" + ENV["RELEASE_VERSION"] }
+  s.source = { :git => "https://github.com/RxSwiftCommunity/RxRealm.git", :tag => "v4.0.3" }
   s.swift_version = "5.1"
 
   s.ios.deployment_target = "11.0"
